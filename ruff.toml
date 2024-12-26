@@ -62,6 +62,7 @@ ignore = [
     "RUF005",  # collection-literal-concatenation: syntax not compatible with py2
     "RUF012", # mutable-class-default: typing is not available for py2
     "I001", # unsorted imports https://docs.astral.sh/ruff/rules/unsorted-imports/#unsorted-imports-i001
+    "Q000", # Single quotes found but double quotes preferred
     "UP037", # [*] Remove quotes from type annotation
     "UP035", # Import from `collections.abc` instead: `Sequence`
     "UP031", # Use format specifiers instead of percent format
