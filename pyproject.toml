@@ -5,7 +5,7 @@ description = "Just a simple mouse autoclicker in python."
 authors = [
     {name = "Giovanni Bronzini", email = "g.bronzini@gmail.com"},
 ]
-license = {file = "LICENSE.md"}
+
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -16,6 +16,7 @@ dependencies = [
 ]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
     "License :: OSI Approved :: GNU Affero General Public License v3",
     "Programming Language :: Python :: 3.12",
 ]
