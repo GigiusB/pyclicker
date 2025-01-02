@@ -1,4 +1,5 @@
 import io
+from time import sleep
 from typing import TYPE_CHECKING
 
 import click
@@ -46,5 +47,5 @@ def main(delay: float, key: str, button: str) -> None:
     while True:
         if running:
             pyautogui.click(pyautogui.position(), button=button)
-            pyautogui.PAUSE = delay
+        sleep(delay)
     lis.stop()
